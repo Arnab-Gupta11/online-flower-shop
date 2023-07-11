@@ -22,9 +22,9 @@
 }
 
 .common-section {
-  margin-left: 240px;
-  margin-right: 240px;
+  margin: auto;
   margin-top: 128px;
+  width: 1440px;
 }
 
 /* banner section  style*/
@@ -56,6 +56,68 @@
 .banner-img {
   width: 635px;
   height: 800px;
+}
+/* featured section */
+.featured-info {
+  text-align: center;
+}
+.featured-section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured-section-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin: auto;
+  margin-top: 24px;
+}
+.featured-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.device-width {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  margin-bottom: 32px;
+}
+.featured-card-img {
+  width: 310px;
+  height: 428px;
+}
+.card-1 {
+  margin: 110px 78px 0px 78px;
+}
+.card-2 {
+  margin: 117px 48px 51px 48px;
+  width: 370px;
+  height: 370px;
+}
+.card-3 {
+  margin: 110px 78px 0px 78px;
+}
+.featured-card-item1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured-card-item2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.featured-card-item3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-card {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
 
 /* Hot deal section style */
@@ -120,4 +182,80 @@
 .insta-card-img {
   width: 342px;
   height: 396px;
+}
+
+/* Latest-detail-section */
+.latest-details-section {
+  background-image: url(../images/Rectangle\ 9.png);
+  height: 449px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .latest-detail-info {
+  position: absolute;
+  width: 100%;
+  top: 140px;
+  bottom: 122px;
+  text-align: center;
+} */
+.latest-detail-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.latest-detail-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.latest-detail-input {
+  padding: 22px 500px 22px 22px;
+
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #fff;
+  margin-right: 16px;
+}
+.submit-button {
+  padding: 18px 29px 18px 29px;
+}
+
+.footer-scetion {
+  background-color: #111010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+}
+.footer-section-div {
+  text-align: center;
+  margin: 128px 0px;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.footer-desc {
+  color: rgba(255, 255, 255, 0.9);
+
+  font-size: 18px;
+  font-weight: 400;
+  width: 625px;
+  margin-bottom: 32px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
