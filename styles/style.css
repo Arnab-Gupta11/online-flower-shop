@@ -259,3 +259,117 @@
   font-size: 16px;
   font-weight: 400;
 }
+/* Form section */
+
+.flower-section {
+  background: rgba(229, 84, 115, 0.1);
+}
+.form-div {
+  width: 50%;
+  margin-left: 100px;
+}
+.product-div {
+  width: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.flower-section-title {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+.order-container {
+  display: flex;
+  margin-top: 100px;
+}
+.order-form {
+}
+.cmn-input,
+.cmn-label {
+  display: block;
+}
+.product-img {
+  height: 100px;
+  width: 100px;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+}
+.cmn-label {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+.cmn-input {
+  margin-top: 24px;
+  width: 50%;
+  padding: 18px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 400px;
+}
+.text-input {
+  width: 70%;
+
+  margin-top: 24px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: rgba(39, 39, 39, 0.8);
+}
+.product-card-desc {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+.checkbox {
+  height: 25px;
+  width: 25px;
+}
+.quantity-size {
+  height: 40px;
+  width: 70px;
+  font-size: 30px;
+  color: rgba(39, 39, 39, 0.8);
+  padding: 10px;
+}
+.payment-div {
+  margin-top: 50px;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.submit-btn {
+  margin-top: 35px;
+}
+#Payment {
+  margin-left: 25px;
+}
+.pay-title {
+  font-size: 25px;
+}
+.product-div-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 34px;
+  font-weight: 600;
+}
+.Tk {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 25px;
+  font-weight: 600;
+}
